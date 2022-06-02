@@ -76,7 +76,7 @@ conda activate myenv
 pip install "alignfaces @ git+https://git@github.com/SourCherries/auto-face-align.git"
 ```
 
-This will create a new virtual environment called `myenv`. You can use another name for that. You'll need to activate this environment using `conda activate myenv` whenever you want to use AFA. To deactivate, simply type `conda deactivate myenv`.
+This will create a new virtual environment called `myenv`. You can use another name for that. You'll need to activate this environment using `conda activate myenv` whenever you want to use AFA. To deactivate, simply type `conda deactivate myenv`. To list your environments, type `conda env list`.
 
 Windows users may encounter a problem with plotting. That is a [general issue](https://stackoverflow.com/questions/69786885/after-conda-update-python-kernel-crashes-when-matplotlib-is-used) with **Matplotlib** on Windows. To fix, simply type the following while your `myenv` is activated:
 
